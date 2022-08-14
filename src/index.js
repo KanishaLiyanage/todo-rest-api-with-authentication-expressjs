@@ -1,3 +1,4 @@
+require('dotnet').config();
 const express = require('express');
 require('./db/mongoose');
 const userRouter = require('../src/routers/user');
