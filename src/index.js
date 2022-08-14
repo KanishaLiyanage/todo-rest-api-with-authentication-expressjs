@@ -1,4 +1,4 @@
-require('dotnet').config();
+require('dotenv').config();
 const express = require('express');
 require('./db/mongoose');
 const userRouter = require('../src/routers/user');
